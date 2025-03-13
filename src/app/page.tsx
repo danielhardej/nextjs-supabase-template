@@ -4,7 +4,7 @@ import { ClientDemoCard } from "./client-page";
 
 export default async function Home() {
   const { greeting } = await serverApi.example.hello({
-    text: "Next.js + Supabase = 🎉",
+    text: "Next.js + Supabase + Railway = 🎉",
   });
   const supabase = supabaseServer();
   const { data } = await supabase.auth.getUser();
