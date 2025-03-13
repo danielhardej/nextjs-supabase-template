@@ -31,7 +31,7 @@ export function ClientDemoCard({ user }: { user: boolean }) {
   return (
     <Card className="max-w-[400px]">
       <CardHeader>
-        <CardTitle>Hi everyone lets get started! Welcome!</CardTitle>
+        <CardTitle>Welcome to this railway demo!</CardTitle>
         <CardDescription>Read the README to get started.</CardDescription>
       </CardHeader>
       <CardContent>
